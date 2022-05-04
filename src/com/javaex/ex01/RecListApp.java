@@ -17,12 +17,17 @@ public class RecListApp {
 
 		System.out.println("#사각형 4개 리스트에 추가=========================================");
 		// 사각형4개 리스트에 추가 코드 작성
-		for (int i = 0; i < rList.size(); i++) {
-			System.out.println(rList.get(i));
-
-		}
+		
+		rList.get(0);
+		rList.get(1);
+		rList.get(2);
+		rList.get(3);
 
 		// 리스트 모두를 draw하는 메소드 실행
+		for (int i = 0; i < rList.size(); i++) {
+			System.out.println();
+			
+		}
 
 		System.out.println("#3번째 사각형(3, 3) 삭제==========================================");
 		// 사각형(3,3) 삭제 코드 작성
